@@ -83,7 +83,7 @@
 ``` http
  GET https://en.wikipedia.org/w/index.php?search=intitle:Browser&title=Special:Search&profile=advanced&fulltext=1&advancedSearch-current={"fields":{"intitle":"Browser"}}&ns0=1 
 ``` 
-![search request](./images/search_request.jpg) 
+![search request](./images/request_search.jpg) 
 
 * URL запроса: `https://en.wikipedia.org/w/index.php`
 * Метод запроса: `GET` 
