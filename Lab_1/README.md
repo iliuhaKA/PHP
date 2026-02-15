@@ -5,7 +5,7 @@
 ### Задание 1. Анализ HTTP-запросов. Часть 1
 
 Открыв сайт [https://en.wikipedia.org/wiki/HTTP](https://en.wikipedia.org/wiki/HTTP) в инструментах разработчика первый запрос во вкладке **Network**: \
-![request](./images/request.png) \
+![request](./images/request.jpg) \
 `GET https://ru.wikipedia.org/wiki/HTTP` 
 
 * URL запроса: `https://ru.wikipedia.org/wiki/HTTP`
@@ -43,7 +43,7 @@
 Кроме основного запроса были отправлены множество других запросов типа `GET`, для получение различных данных: скриптов (js), стилей (css), картинок (img), иконок (ico), json объектов.
 
 Открыв сайт [https://en.wikipedia.org/wiki/HTTPdsfdfs](https://en.wikipedia.org/wiki/HTTPdsfdfs) уведил слудеющий результат запроса `GET` : 
-![request not found](./images/request_not_found.png)
+![request not found](./images/request_not_found.jpg)
 
 * URL запроса: `https://en.wikipedia.org/wiki/HTTPdsfdfs`
 * Метод запроса: `GET` 
@@ -83,7 +83,7 @@
 ``` http
  GET https://en.wikipedia.org/w/index.php?search=intitle:Browser&title=Special:Search&profile=advanced&fulltext=1&advancedSearch-current={"fields":{"intitle":"Browser"}}&ns0=1 
 ``` 
-![search request](./images/search_request.png) 
+![search request](./images/search_request.jpg) 
 
 * URL запроса: `https://en.wikipedia.org/w/index.php`
 * Метод запроса: `GET` 
@@ -106,7 +106,7 @@ GET
 	https://github.com/
 ```
 
-![github request](./images/github_request.png)
+![github request](./images/github_request.jpg)
 
 * URL запроса: `https://github.com/`
 * Метод запроса: `GET` 
